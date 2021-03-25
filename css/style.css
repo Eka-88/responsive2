@@ -181,6 +181,7 @@
     font-family: 'Poppins-ExtraBold ';
     line-height: 56px;
     margin-bottom: 34px;
+    margin-top: 2px;
 }
 .block-wrapper{
     width: 100%;
@@ -218,7 +219,7 @@
     font-family: 'Poppins-SemiBold';
     line-height: 27px;
     color: #000000;
-    margin-top: 15;
+    margin-top: 15px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -229,6 +230,7 @@
     font-family: 'Poppins-Medium';
     color: #B1B1B1;
     text-align: center;
+    line-height: 21px;
 }
 /* <section 4> */
 .section4-wrapper{
@@ -282,3 +284,26 @@
     display: block;
 }
 /* <end of section 4> */
+/* <section 5> */
+.sction5{
+    padding-top: 90px;
+}
+.section5-title{
+    max-width: 567px;
+    width: 100%;
+    color: #000000;
+    font-family: 'Poppins-ExtraBold ';
+    font-size: 42px;
+    line-height: 56px;
+    margin-bottom: 50px;
+}
+.image-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.section5-image{
+    height: 352px;
+    width: 25%;
+}
+/* <section 5> */
