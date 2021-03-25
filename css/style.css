@@ -1,7 +1,6 @@
 /* <header */
 .header{
    background-image: url(../images/bg.jpg);
-    height: 324px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -13,6 +12,10 @@
     max-width: 1089px;
     width: 100%;
     margin: 0 auto;
+}
+.logo img{
+    max-width: 86px;
+    width: 100%;
 }
 .nav-box{
     display: flex;
@@ -33,12 +36,13 @@
     font-size: 12px;
     font-family: 'Poppins-SemiBold';
     text-transform: uppercase;
+    line-height: 18px;
+}
+.nav-li:hover{
+    transform: scale(1.5);
 }
 .nav-li .active{
     color: #5863F8;
-}
-.logo img{
-    width: 100px;
 }
 .title{
     max-width: 200px;
@@ -46,6 +50,7 @@
     font-size: 42px;
     font-family: 'Poppins-ExtraBold ';
     color: #FFFFFF;
+    line-height: 56px;
     margin-bottom: 14px;
 }
 .title-box{
@@ -70,6 +75,7 @@
     color: #FFFFFF;
     font-size: 14px;
     font-family: 'Poppins-Medium';
+    line-height: 21px;
 }
 .divider{
     width: 2px;
@@ -160,7 +166,6 @@
 /* <section 3> */
 .section3{
     background-image: url(../images/bg2.jpg);
-    /* height: 612px; */
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -181,6 +186,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .block{
     /* max-width: 260px;
@@ -224,3 +230,55 @@
     color: #B1B1B1;
     text-align: center;
 }
+/* <section 4> */
+.section4-wrapper{
+    display: flex;
+}
+.left-block{
+    width: 58%;
+}
+.right-block{
+    width: 42%;
+}
+/* <left-block> */
+.left-block{
+    background-color: #F8F8F8;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-block-title2{
+    max-width: 515px;
+    width: 100%;
+    color: #000000;
+    font-family: 'Poppins-ExtraBold ';
+    font-size: 42px;
+    line-height: 56px;
+}
+.profile{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.profile p{
+    font-size: 18px;
+    font-family: 'Poppins-SemiBold';
+    line-height: 27px;
+    color: #000000;
+    margin-left: 19px;
+}
+.section4-text{
+    max-width: 352px;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Poppins-Medium';
+    line-height: 21px;
+}
+/* <.right-block> */
+.right-block img{
+    height: 487px;
+    width: 100%;
+    display: block;
+}
+/* <end of section 4> */
