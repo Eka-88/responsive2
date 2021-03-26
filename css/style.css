@@ -27,6 +27,7 @@
 }
 .nav-li{
     margin-right: 49px;
+    transition: 1s;
 }
 .nav-li:last-child{
     margin-right: 0;
@@ -41,7 +42,7 @@
 .nav-li:hover{
     transform:scale(1.2);
 }
-.nav-li .active{
+.nav-li .blue{
     color: #5863F8;
 }
 .fa-bars{
@@ -49,6 +50,7 @@
 	font-size: 20px;
 	margin: 0 20px 0 20px;
     display: none;
+    transition: 1s;
 }
 .navigation-wrapper{
     display: flex;
@@ -102,7 +104,6 @@
 .box-wrapper{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 .left-box,
 .right-box{
@@ -251,7 +252,6 @@
 /* <section 4> */
 .section4-wrapper{
     display: flex;
-    flex-wrap: wrap;
 }
 .left-block{
     width: 58%;
