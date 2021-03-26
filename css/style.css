@@ -20,7 +20,7 @@
 .nav-box{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 96px;
+    margin-bottom: 96px; 
 }
 .nav-ul{
     display: flex;
@@ -39,10 +39,20 @@
     line-height: 18px;
 }
 .nav-li:hover{
-    transform: scale(1.5);
+    transform:scale(1.2);
 }
 .nav-li .active{
     color: #5863F8;
+}
+.fa-bars{
+    color:#FFFFFF;
+	font-size: 20px;
+	margin: 0 20px 0 20px;
+    display: none;
+}
+.navigation-wrapper{
+    display: flex;
+    justify-content: space-between;
 }
 .title{
     max-width: 200px;
@@ -92,6 +102,7 @@
 .box-wrapper{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .left-box,
 .right-box{
@@ -152,15 +163,20 @@
 }
 /* <right box> */
 .image-box{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 12px;
 }
 .image-box img{
+    height: 185px;
     width: 48%;
+    object-fit: cover;
 }
 .right-box-img{
+    height: 260px;
     width: 100%;
+    object-fit: cover;
 }
 /* <section2> */
 /* <section 3> */
@@ -235,6 +251,7 @@
 /* <section 4> */
 .section4-wrapper{
     display: flex;
+    flex-wrap: wrap;
 }
 .left-block{
     width: 58%;
@@ -281,6 +298,7 @@
 .right-block img{
     height: 487px;
     width: 100%;
+    object-fit: cover;
     display: block;
 }
 /* <end of section 4> */
@@ -301,10 +319,12 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .section5-image{
     height: 352px;
     width: 25%;
+    object-fit: cover;
 }
 /* <section 5> */
 /* <footer > */
@@ -316,6 +336,7 @@
 .footer-wrapper{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .footer-left{
     width: 25%;
@@ -353,6 +374,7 @@
 .footer-right{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .footer-box-title{
     font-size: 18px;
@@ -395,3 +417,4 @@
 .copy span{
     color: #5863F8;
 }
+/* <footer > */
